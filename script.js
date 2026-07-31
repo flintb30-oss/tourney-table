@@ -1,3 +1,10 @@
+const SUPABASE_URL = "YOUR_API_URL_HERE";
+const SUPABASE_KEY = "YOUR_PUBLISHABLE_KEY_HERE";
+
+const supabaseClient = supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_KEY
+);
 // Tourney Table Functions
 
 // Example tournament countdown
