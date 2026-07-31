@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #080018;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #4b00ff, #12002b);
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background: #10002b;
+}
+
+nav button {
+    background: #6c2cff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+nav button:hover {
+    background: #9b6cff;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.table-section,
+.converter {
+    width: 85%;
+    margin: auto;
+    background: #140033;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    border-bottom: 1px solid #5c2cff;
+    text-align: center;
+}
+
+th {
+    background: #6c2cff;
+}
+
+select {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    width: 250px;
+    background: white;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #10002b;
+}
