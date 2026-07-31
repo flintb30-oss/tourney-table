@@ -40,3 +40,17 @@ function showRegion() {
     );
 
 }
+async function loadTournaments() {
+    const { data, error } = await supabaseClient
+        .from("tournaments")
+        .select("*");
+
+    if (error) {
+        console.log(error);
+        return;
+    }
+
+    console.log(data);
+}
+
+loadTournaments();
